@@ -1,0 +1,34 @@
+{
+  "name": "ahmedguesmi/basepluginwordpress",
+  "type": "wordpress-plugin",
+  "description": "A bloilerplate for WordPress plugins",
+  "keywords": ["wordpress", "plugin", "boilerplate", "carbonfields"],
+  "homepage": "https://2lab.net",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Guesmi Ahmed",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/ahmedguesmi/basepluginwordpress/issues/",
+    "wiki": "https://github.com/ahmedguesmi/basepluginwordpress/wiki/",
+    "source": "https://github.com/ahmedguesmi/basepluginwordpress/"
+  },
+  "require": {
+    "php": ">=7.0",
+    "jjgrainger/posttypes": "^2.0.1",
+    "tgmpa/tgm-plugin-activation": "^2.6.1",
+    "ahmedguesmi/wordpress-toolkit": "^0.4.1",
+    "underdev/requirements": "^1.3",
+    "inc2734/wp-customizer-framework": "3.2.3",
+    "composer/installers": "^1.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "VendorName\\PluginName\\": "app/",
+      "Carbon_Fields\\Datastore\\Datastore\\": "app/Datastores/"
+    }
+  }
+}

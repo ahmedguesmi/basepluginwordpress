@@ -1,0 +1,19 @@
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-color-hover;
+  }
+}
+
+h1 {
+
+  &.site-title {
+    font-family: $font-family-base;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+}
